@@ -1,9 +1,12 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view />
 </template>
 
-<style lang="scss"></style>
+<script setup>
+import "@/components/shared/e-header.vue";
+</script>
+
+<style lang="scss">
+@import "@/assets/style/style.scss";
+@import "@/assets/style/fonts.scss";
+</style>
