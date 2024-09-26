@@ -1,11 +1,17 @@
-import index from "@/pages/Eindex.vue";
+import employeer from "@/pages/e-employeer.vue";
+import index from "@/pages/e-index.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/",
-    name: "home",
+    path: "/search",
+    name: "index",
     component: index,
+  },
+  {
+    path: "/",
+    name: "employeer",
+    component: employeer,
   },
 ];
 

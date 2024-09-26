@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2020-11-22T14:37:38+03:00">
+  <shop>
+      <name>майсторис</name>
+      <company>Интернет-магазин модной женской одежды и доставкой по всей России</company>
+      <url>https://xn--80aqckmmfdf.xn--p1ai/</url>
+      <categories>
+          <category id="1">Новинки</category>
+          <category id="10" parentId="1">Топ продаж</category>
+          <category id="102" parentId="10">Платья</category>
+          <category id="103" parentId="10">Сарафаны</category>
+          <category id="104" parentId="10">Рубашки, топы</category>
+      </categories>
+      <delivery-options>
+          <option cost="350" days="5"/>
+      </delivery-options>
+      <pickup-options>
+          <option cost="350" days="3"/>
+      </pickup-options>
+      <offers>
+          <offer id="1">
+              <name>Кимоно Сакура</name>
+              <vendor>Майсторис</vendor>
+              <typePrefix>Новинки</typePrefix>
+              <url>https://xn--80aqckmmfdf.xn--p1ai/catalog/%D0%9A%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%20%D0%A1%D0%B0%D0%BA%D1%83%D1%80%D0%B0/608b58ae-cf75-4d87-aa45-67163350f5ed</url>
+              <price>8990</price>
+              <oldprice>9990</oldprice>
+              <enable_auto_discounts>true</enable_auto_discounts>
+              <currencyId>RUB</currencyId>
+              <categoryId>1</categoryId>
+              <picture>https://xn--80aqckmmfdf.xn--p1ai/api/656e1945-83d8-4c64-867b-d887218281ba.webp</picture>
+              <description>
+                  <![CDATA[
+                      <p>Лаконичный топ из натурального льна в базовом черном цвете. Благодаря корсетному силуэту выгодно подчеркивает фигуру и станет 
+                      украшением особенного вечера в тандеме с брюками, а для насыщенного событиями дня будет уместен в стилизации с джинсами 
+                      или шортами. Для изделия мы выбрали тонкий лен, который при этом хорошо держит форму, пропускает воздух и тактильно приятен к телу. 
+                      На солнце ткань приобретает едва заметный дорогой лоск, благодаря уникальному плетению нити.
+                      Параметры модели: 178/85/62/90
+                      На модели размер: S</p>
+                  ]]>
+              </description>
+              <manufacturer_warranty>true</manufacturer_warranty>
+              <param name="Цвет">белый</param>
+              <param name="Размер">M</param>
+              <weight>3.6</weight>
+          </offer>
+      </offers>
+  </shop>
+</yml_catalog>
+

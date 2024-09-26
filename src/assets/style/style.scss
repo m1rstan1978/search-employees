@@ -1,11 +1,36 @@
-$yellow: #ede9df;
-$brown: #af9280;
-$green: #a8ab98;
-$greenSec: #a5a995;
-$blue: #9ba8bd;
-$assistant: 10px;
-$brandname: #d2bcae;
+$red: #e31f24;
+$dark-gray: #333333;
+$gray: #76787d;
+$black: #000;
 
+@mixin h1-styles {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@mixin h2-styles {
+  font-size: 16px;
+  font-weight: 600;
+}
+@mixin text-styles {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@mixin resolution-styles {
+  max-width: 1366px;
+  margin: 0 auto;
+  width: 100%;
+}
+@mixin hide-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
 body {
   overflow-x: hidden;
 }
@@ -38,7 +63,6 @@ a:focus,
 a:active {
   outline: none;
 }
-
 h1,
 h2,
 h3,
@@ -101,10 +125,6 @@ button:active {
   outline: none;
 }
 
-input {
-  color: $brown;
-}
-
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
@@ -115,18 +135,8 @@ button::-moz-focus-inner {
 }
 
 ::selection {
-  background: $brown;
-  color: #fff;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  background: $yellow;
-}
-
-::-webkit-scrollbar-thumb {
-  background: $brown;
-  border-radius: 5px;
+  color: white;
+  background-color: $red;
 }
 
 input[type="number"]::-webkit-inner-spin-button,

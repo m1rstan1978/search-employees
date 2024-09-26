@@ -1,12 +1,11 @@
-<template>
-  <router-view />
-</template>
-
 <script setup>
-import "@/components/shared/e-header.vue";
+import Wrapper from "@/components/e-main-wrapper.vue";
+import Header from "@/components/shared/e-header.vue";
 </script>
 
-<style lang="scss">
-@import "@/assets/style/style.scss";
-@import "@/assets/style/fonts.scss";
-</style>
+<template>
+  <Header />
+  <Wrapper />
+</template>
+
+<style lang="scss" scoped></style>
