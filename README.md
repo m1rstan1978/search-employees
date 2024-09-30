@@ -5,6 +5,12 @@ Demo - https://search-employees-sooty.vercel.app/search
 - Ervin Howell
 - Clementine Bauch
 - Patricia Lebsack
+- Chelsey Dietrich
+- Mrs. Dennis Schulist
+- Kurtis Weissnat
+- Nicholas Runolfsdottir V
+- Glenna Reichert
+- Clementina DuBuque
 
 ## Поиск по ID:
 - 1
@@ -15,3 +21,5 @@ Demo - https://search-employees-sooty.vercel.app/search
 - 6 
 - 7
 - 8
+- 9
+- 10
