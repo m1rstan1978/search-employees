@@ -1,24 +1,17 @@
 Demo - https://search-employees-sooty.vercel.app/search
 
-## Project setup
-```
-npm install
-```
+## Поиск по имени:
+- Leanne Graham
+- Ervin Howell
+- Clementine Bauch
+- Patricia Lebsack
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Поиск по ID:
+- 1
+- 2
+- 3
+- 4
+- 5 
+- 6 
+- 7
+- 8
