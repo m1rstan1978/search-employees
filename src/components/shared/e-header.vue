@@ -3,7 +3,7 @@
 <template>
   <header class="header">
     <div class="header__content">
-      <h1 class="header__logo">Жилфонд</h1>
+      <h1 class="header__logo">Поиск сотрудника</h1>
       <div class="header__user">Пользователь</div>
     </div>
   </header>
